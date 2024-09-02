@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h4>Meu portfolio</h4>
+        <a href="#sobre">SOBRE MIM</a>
+        <a href="#projetosPort">PROJETOS</a>
+        <a href="#cont">CONTATO</a>
+    </header>
+    <main>
+        <div class="sobre">
+        
+                <img src="{{ url_for('static', filename='IMG_9400.jpg') }}">
+                
+                <h1>Quem sou eu?</h1>
+                <p>Meu nome é Lucas Daiki, tenho 19 anos e sou um estudande do curso de Ciência da Computação, atualmente estou no quarto semestre.</p>
+                
+                <h1>Minha Motivação</h1>
+                <p>Estudar programação e tecnologia me motiva porque me dá a chance de transformar minhas ideias em realidade. Com essas habilidades, posso criar soluções inovadoras para problemas reais e melhorar a forma como as coisas funcionam. O mais interessante é que a tecnologia está sempre mudando e evoluindo, então há sempre algo novo para aprender e explorar. Isso mantém o trabalho desafiador e empolgante. Se você gosta de resolver problemas e descobrir novas possibilidades, a programação é uma maneira incrível de transformar essas paixões em algo concreto e impactante.</p>
+        
+        </div>    
+
+        <div class="projetosPort">    
+            <h1>Conheça aqui, alguns projetos desenvolvidos por mim!</h1>
+                
+            <div class="sombraB">
+                <button>
+                <a href="https://orcamentos.w3spaces.com" target="_blank">           Calculadora de orçamentos</a>
+                </button>
+            </div> 
+
+            <div class="desc">
+                <h5>Projeto desenvolvido com JavaScript, HTML e CSS, calculadora de orçamentos para uma gráfica.</h5>
+            </div>
+
+        </div>
+    </main>
+    
+    <footer class="cont"> 
+        <a href="mailto:lucas.hori989@al.unieduk.com.br">E-mail</a>
+        <a href="tel:19981322487">Telefone</a>
+    </footer>
+    </body>
+</html>
